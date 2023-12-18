@@ -18,11 +18,12 @@ repositories {
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.3")
-
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	testImplementation("org.assertj:assertj-core:3.24.2")
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:32.1.1-jre")
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
